@@ -12,6 +12,7 @@ import CpuNewsPage from './pages/CpuNewsPage';
 import GpuNewsPage from './pages/GpuNewsPage';
 import StorageNewsPage from './pages/StorageNewsPage';
 import ReviewsPage from './pages/ReviewsPage';
+import ChartsPage from './pages/ChartsPage'
 
 function useDemoRouter(initialPath) {
   const [pathname, setPathname] = React.useState(initialPath);
@@ -29,6 +30,7 @@ function PageContent({ pathname }) {
     case '/gpu': return <GpuNewsPage />;
     case '/storage': return <StorageNewsPage />;
     case '/reviews': return <ReviewsPage />;
+    case '/charts': return <ChartsPage />;
     default: return <HomePage />;
   }
 }
