@@ -29,7 +29,7 @@ function PageContent({ pathname }) {
     case '/gpu': return <GpuNewsPage />;
     case '/storage': return <StorageNewsPage />;
     case '/reviews': return <ReviewsPage />;
-    default: return <HomePage />;
+    default: return <div style={{ padding: 20 }}>Page not found</div>;
   }
 }
 
