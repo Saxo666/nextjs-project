@@ -47,7 +47,7 @@ export default function DashboardLayoutHardware(props) {
       theme={demoTheme}
       window={demoWindow}
       branding={{
-        logo: <img src="images.png" alt="Hardware News" style={{ height: 32 }} />,
+        logo: <img src="logo.png" alt="Hardware News" style={{ height: 32 }} />,
         title: 'Hardware News',
       }}
     >
